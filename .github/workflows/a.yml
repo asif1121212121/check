@@ -1,0 +1,13 @@
+name: workflow1
+on:
+    pull_request: 
+      branches: 
+      - 'main'
+jobs:
+    job1:
+        runs-on: ubuntu-latest
+        steps:
+        - name: checkout
+          uses: actions/checkout@v4
+        - name: printing
+          run: ls -larth

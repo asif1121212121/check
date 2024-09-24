@@ -12,4 +12,4 @@ jobs:
         - name: printing
           run: ls -larth
         - run: echo added
-        - run: echo "${{ secrets.olive }}
+        - run: echo "${{ secrets.olive }}"
